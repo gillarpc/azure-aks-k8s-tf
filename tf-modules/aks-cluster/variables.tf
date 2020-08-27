@@ -63,7 +63,7 @@ variable "network_plugin" {
 
 variable "service_cidr" {
   description = "kubernetes internal service cidr range"
-  default     = "10.0.0.0/16"
+  default     = "10.35.0.0/16"
 }
 
 variable "diagnostics_workspace_id" {

@@ -24,11 +24,11 @@ variable resource_group_name {
 
 variable location {
   description = "azure location to deploy resources"
-  default     = "westeurope"
+  default     = "southeastasia"
 }
 
 variable log_analytics_workspace_name {
-  default = "testLogAnalyticsWorkspaceName"
+  default = "inssasLogAnalyticsWorkspaceName"
 }
 
 # refer https://azure.microsoft.com/global-infrastructure/services/?products=monitor for log analytics available regions
@@ -63,7 +63,7 @@ variable kubernetes_version {
 
 variable "vm_size" {
   description = "size/type of VM to use for nodes"
-  default     = "Standard_D2_v2"
+  default     = "Standard_B2ms"
 }
 
 variable "os_disk_size_gb" {
@@ -88,16 +88,3 @@ variable "max_count" {
   default     = 2
   description = "Maximum Node Count"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -33,7 +33,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
     network_plugin     = var.network_plugin
     network_policy     = "calico"
     service_cidr       = var.service_cidr
-    dns_service_ip     = "10.0.0.10"
+    dns_service_ip     = "10.35.0.10"
     docker_bridge_cidr = "172.17.0.1/16"
   }
 

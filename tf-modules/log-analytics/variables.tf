@@ -3,12 +3,12 @@ variable resource_group_name {
 }
 
 variable log_analytics_workspace_name {
-    default = "testLogAnalyticsWorkspaceName"
+    default = "inssasLogAnalyticsWorkspaceName"
 }
 
 # refer https://azure.microsoft.com/global-infrastructure/services/?products=monitor for log analytics available regions
 variable log_analytics_workspace_location {
-    default = "eastus"
+    default = "southeastasia"
 }
 
 # refer https://azure.microsoft.com/pricing/details/monitor/ for log analytics pricing 
